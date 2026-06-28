@@ -4,6 +4,7 @@ A simple Tic-Tac-Toe game implementation in Python.
 
 def print_board(board):
     """Print the current state of the board."""
+    print("Current board is:")
     print("\n")
     for i in range(3):
         print(f" {board[i][0]} | {board[i][1]} | {board[i][2]} ")
